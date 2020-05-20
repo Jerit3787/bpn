@@ -7,4 +7,8 @@ Simple tool to check requirement for Bantuan Prihatin Nasional (BPN). Built with
 
 # Releases
 - SSBPN CLI (Command-Line Interface)
-- SSBPN GUI (Graphical-Line Interface)
+- SSBPN GUI (Graphical User Interface)
+
+# Video
+Watch my fast editing video on this project!
+- https://youtu.be/VqE4YVPQw_Q
