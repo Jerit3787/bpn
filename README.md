@@ -18,6 +18,8 @@ Watch my fast editing video on this project!
 
 ## Future Plans
 - [X] Add Author Pane.
-- [ ] Make support for `*.exe` file type
+- [X] Make support for `*.exe` file type
 - [ ] Build support for `*java 8*` / include jdk 14 library in executable file (*.exe*).
 - [ ] Implement `material UI API` to modernize *Swing's default UI*.
+
+p/s might work without JDK 14 installed!
