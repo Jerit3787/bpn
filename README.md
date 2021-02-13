@@ -1,4 +1,6 @@
 # bpn
+![GitHub Release Date](https://img.shields.io/github/release-date/Jerit3787/bpn) ![GitHub last commit](https://img.shields.io/github/last-commit/Jerit3787/bpn) ![GitHub branch checks state](https://img.shields.io/github/checks-status/Jerit3787/bpn/master) ![GitHub issues](https://img.shields.io/github/issues/Jerit3787/bpn) ![GitHub deployments](https://img.shields.io/github/deployments/Jerit3787/bpn/github-pages) ![GitHub all releases](https://img.shields.io/github/downloads/Jerit3787/bpn/total) ![GitHub](https://img.shields.io/github/license/Jerit3787/bpn)
+
 Simple tool to check requirement for Bantuan Prihatin Nasional (BPN). **Built with Swing Java**
 
 ## Requirements
