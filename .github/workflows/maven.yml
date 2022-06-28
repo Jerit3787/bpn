@@ -44,7 +44,7 @@ jobs:
     - name: Setuping Node latest version
       uses: actions/setup-node@v2.5.0
       with:
-        node-version: 'latest'
+        node-version: '16'
         check-latest: true 
 
     - name: Set up JDK 17
