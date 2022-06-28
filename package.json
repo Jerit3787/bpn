@@ -6,7 +6,8 @@
         "preinstall": "sudo apt-get update && sudo apt-get install gcc make ruby-full build-essential zlib1g-dev bundler -y",
         "install": "sudo bundler install",
         "start": "sudo bundle exec jekyll serve",
-        "build": "mvn package -f 'maven/SistemSemakanBantuanPrihatinNasionalGUI/pom.xml'",
+        "build": "npm run clean && npm run mvn-build",
+        "mvn-build": "mvn package -f 'maven/SistemSemakanBantuanPrihatinNasionalGUI/pom.xml'",
         "test-build": "mvn test -f 'maven/SistemSemakanBantuanPrihatinNasionalGUI/pom.xml'",
         "test-site": "sudo bundle exec jekyll build",
         "clean": "mvn clean -f 'maven/SistemSemakanBantuanPrihatinNasionalGUI/pom.xml'"
