@@ -62,7 +62,7 @@ jobs:
       run: npm run build
 
     - name: Preparing Artifact
-      run: "cp maven/SistemSemakanBantuanPrihatinNasionalGUI/target/SSBPN-1.2-Alpha-jar-with-dependencies.jar SSBPN-1.2-Alpha.jar"
+      run: "target/SSBPN-1.2-Alpha-jar-with-dependencies.jar ../../SSBPN-1.2-Alpha.jar"
 
     - name: Generate Prerelease Release Notes
       run: |
