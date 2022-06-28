@@ -19,7 +19,7 @@ jobs:
     
     defaults:
       run:
-        working-directory: maven/SistemSemakanBantuanPrihatinNasionalGUI
+        working-directory: 'maven/SistemSemakanBantuanPrihatinNasionalGUI'
 
     steps:
     - name : Checkout Repo
