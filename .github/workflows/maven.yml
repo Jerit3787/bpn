@@ -62,7 +62,7 @@ jobs:
       run: npm run build
 
     - name: Preparing Artifact
-      run: "target/SSBPN-1.2-Alpha-jar-with-dependencies.jar ../../SSBPN-1.2-Alpha.jar"
+      run: "sudo cp target/SSBPN-1.2-Alpha-jar-with-dependencies.jar ../../SSBPN-1.2-Alpha.jar"
 
     - name: Generate Prerelease Release Notes
       run: |
