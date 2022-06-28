@@ -82,7 +82,7 @@ jobs:
         name: "bpn v1.2-alpha ${{ env.SHORT_SHA }}"
         prerelease: true
         draft: false
-        bodyFile: "./ReleaseNotes.md"
+        bodyFile: ReleaseNotes.md
         tag: "v1.2-alpha"
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: "./maven/SistemSemakanPrihatinNasionalGUI/target/SSBPN-1.2-Alpha"
