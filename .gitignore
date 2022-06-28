@@ -1,2 +1,4 @@
 # ignores all vscode settings
 .vscode/
+package-lock.json
+Gemfile.lock

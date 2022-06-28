@@ -1,0 +1,21 @@
+{
+    "name": "bpn",
+    "version": "1.1.0-GUI",
+    "description": "![GitHub Release Date](https://img.shields.io/github/release-date/Jerit3787/bpn) ![GitHub last commit](https://img.shields.io/github/last-commit/Jerit3787/bpn) ![GitHub branch checks state](https://img.shields.io/github/checks-status/Jerit3787/bpn/master) ![GitHub issues](https://img.shields.io/github/issues/Jerit3787/bpn) ![GitHub deployments](https://img.shields.io/github/deployments/Jerit3787/bpn/github-pages) ![GitHub all releases](https://img.shields.io/github/downloads/Jerit3787/bpn/total) ![GitHub](https://img.shields.io/github/license/Jerit3787/bpn)",
+    "scripts": {
+        "preinstall": "sudo apt-get update && sudo apt-get install gcc make ruby-full build-essential zlib1g-dev bundler -y",
+        "install": "sudo bundler install",
+        "start": "sudo bundle exec jekyll serve",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jerit3787/bpn.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Jerit3787/bpn/issues"
+    },
+    "homepage": "https://github.com/Jerit3787/bpn#readme"
+}
