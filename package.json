@@ -9,7 +9,7 @@
         "build": "npm run clean && npm run mvn-build",
         "mvn-build": "sudo mvn package -f 'maven/SistemSemakanBantuanPrihatinNasionalGUI/pom.xml'",
         "test-build": "npm run clean && npm run mvn-build && npm run clean",
-        "test-site": "sudo bundle exec jekyll build && rm -r _site",
+        "test-site": "sudo bundle exec jekyll build && sudo rm -r _site",
         "clean": "sudo mvn clean -f 'maven/SistemSemakanBantuanPrihatinNasionalGUI/pom.xml'"
     },
     "repository": {
