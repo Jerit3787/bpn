@@ -31,7 +31,7 @@ jobs:
       run: |
         git fetch --prune --unshallow --tags
         GIT_SHA="$(git rev-parse --short HEAD)"
-        CUR_TAG="$(git tag -l | grep 'dev' | tail -1)"
+        CUR_TAG="$(git tag -l | grep 'alpha' | tail -1)"
         echo "SHORT_SHA=$GIT_SHA" >> $GITHUB_ENV
         DATE_CURRENT="$(date +'%Y%m%d')"
         echo "DATE=$DATE_CURRENT" >> $GITHUB_ENV
