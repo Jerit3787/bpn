@@ -23,3 +23,30 @@ Watch my fast editing video on this project!
 - [ ] Make support for `*.exe` file type
 - [ ] Build support for `*java 8*` / include jdk 14 library in executable file (*.exe*).
 - [X] Implement `material UI API` to modernize *Swing's default UI*.
+
+## Build source locally
+### Requirements
+- Maven installed
+- JDK 17 installed `I used Java SE JDK 17 from Oracle`
+- A text editor / command-line `I used VS Code with Java Extensions Pack`
+
+### Steps `in VS Code`
+- Click on Maven tabs
+- Under lifecycle, click on `package`
+- Wait until it is finished and jar will be available in `/target` folder.
+- Run `<filename>-with-dependencies.jar`
+
+### Steps `in command-line`
+- Run `mvm package -f "<directory>/bpn/SistemSemakanBantuanPrihatinNationalGUI/pom.xml`
+- Wait until it is finished and jar will be available in `/target` folder.
+- Run `<filename>-with-dependencies.jar`
+
+## Run website locally
+### Requirements :
+- Linux installed `perfer Ubuntu`
+- Node installed
+
+### Steps
+- Run `npm install` to install dependencies
+- Run `npm start` to start the local web server
+- Open `127.0.0.1:4000` to view the website
