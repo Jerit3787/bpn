@@ -8,7 +8,7 @@ Simple tool to check requirement for Bantuan Prihatin Nasional (BPN). **Built wi
 - Skills in using command.
 
 ## Usage
-Use `"JDK 17 enviroment directory ex. "C:/Program Files/jdk-14/bin/java" "` `-jar` `"bpn jar file"`
+Use `"JDK 17 enviroment directory ex. "C:/Program Files/jdk-17/bin/java" "` `-jar` `"bpn jar file"`
 
 ## Releases
 - SSBPN CLI (Command-Line Interface)
