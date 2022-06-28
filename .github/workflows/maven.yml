@@ -90,6 +90,12 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: "SSBPN-1.2-Alpha.jar"
         generateReleaseNotes: true
+        
+    - name: Upload to Artifacts
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: Release Artifacts
+        path: "SSBPN-1.2-Alpha.jar"
 
     - name: Clean project
       run: npm run clean
