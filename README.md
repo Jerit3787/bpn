@@ -37,7 +37,13 @@ Watch my fast editing video on this project!
 - Run `<filename>-with-dependencies.jar`
 
 ### Steps `in command-line`
-- Run `mvm package -f "<directory>/bpn/SistemSemakanBantuanPrihatinNationalGUI/pom.xml`
+- Run `mvm package -f "<directory>/bpn/maven/SistemSemakanBantuanPrihatinNationalGUI/pom.xml`
+- Wait until it is finished and jar will be available in `/target` folder.
+- Run `<filename>-with-dependencies.jar`
+
+### Steps `using npm`
+- Run `cd bpn`
+- Run `npm run build`
 - Wait until it is finished and jar will be available in `/target` folder.
 - Run `<filename>-with-dependencies.jar`
 
