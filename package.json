@@ -7,10 +7,10 @@
         "install": "sudo bundler install",
         "start": "sudo bundle exec jekyll serve",
         "build": "npm run clean && npm run mvn-build",
-        "mvn-build": "mvn package -f 'maven/SistemSemakanBantuanPrihatinNasionalGUI/pom.xml'",
-        "test-build": "mvn test -f 'maven/SistemSemakanBantuanPrihatinNasionalGUI/pom.xml'",
+        "mvn-build": "mvn package -f 'pom.xml'",
+        "test-build": "mvn test -f 'pom.xml'",
         "test-site": "sudo bundle exec jekyll build",
-        "clean": "mvn clean -f 'maven/SistemSemakanBantuanPrihatinNasionalGUI/pom.xml'"
+        "clean": "mvn clean -f 'pom.xml'"
     },
     "repository": {
         "type": "git",

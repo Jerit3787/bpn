@@ -34,7 +34,7 @@ Watch my fast editing video on this project!
 - Run `<java> -jar <filename>-with-dependencies.jar`
 
 ### Steps `in command-line`
-- Run `mvm package -f "<directory>/bpn/maven/SistemSemakanBantuanPrihatinNationalGUI/pom.xml`
+- Run `mvm package -f "<directory>/pom.xml`
 - Wait until it is finished and jar will be available in `/target` folder.
 - Run `<java> -jar <filename>-with-dependencies.jar`
 
