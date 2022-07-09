@@ -6,6 +6,8 @@ name: Java CI with Maven
 on:
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ master ]
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -58,9 +60,11 @@ jobs:
 
     - name: Build Project GUI
       run: npm run build
+      if: github.event_name != 'pull_request'
 
     - name: Preparing Artifact
       run: "sudo cp target/SSBPN-1.2-Alpha-jar-with-dependencies.jar ../../SSBPN-1.2-Alpha.jar"
+      if: github.event_name != 'pull_request'
 
     - name: Generate Prerelease Release Notes
       run: |
@@ -69,6 +73,7 @@ jobs:
         echo 'It is not ready for daily use and we do not guarantee its usability.' >> ReleaseNotes.md
         echo '### The latest five updates are:' >> ReleaseNotes.md
         git log -"5" --format="- %H %s" | sed '/^$/d' >> ReleaseNotes.md
+      if: github.event_name != 'pull_request'
 
     - name: Delete Old Pre-Release
       uses: dev-drprasad/delete-tag-and-release@v0.2.0
@@ -76,6 +81,7 @@ jobs:
         tag_name: ${{ env.OLD_PRE_TAG }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      if: github.event_name != 'pull_request'
 
     - name: Publish GitHub Release
       uses: ncipollo/release-action@v1.10.0
@@ -88,12 +94,14 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: "SSBPN-1.2-Alpha.jar"
         generateReleaseNotes: true
+      if: github.event_name != 'pull_request'
         
     - name: Upload to Artifacts
       uses: actions/upload-artifact@v3.1.0
       with:
         name: Release Artifacts
         path: "SSBPN-1.2-Alpha.jar"
+      if: github.event_name != 'pull_request'
 
     - name: Clean project
       run: npm run clean
