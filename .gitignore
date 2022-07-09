@@ -3,8 +3,4 @@
 package-lock.json
 Gemfile.lock
 _site/
-maven/SistemSemakanBantuanPrihatinNasionalGUI/target/
-ant/Sistem Semakan Bantuan Prihatin Nasional CLI/dist/
-ant/Sistem Semakan Bantuan Prihatin Nasional CLI/build/
-ant/Sistem Semakan Bantuan Prihatin Nasional GUI/dist/
-ant/Sistem Semakan Bantuan Prihatin Nasional GUI/build/
+target
