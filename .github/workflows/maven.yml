@@ -81,7 +81,7 @@ jobs:
         name: "bpn v1.2-alpha ${{ env.SHORT_SHA }}"
         prerelease: true
         draft: false
-        bodyFile: 'maven/SistemSemakanBantuanPrihatinNasionalGUI/ReleaseNotes.md'
+        bodyFile: 'ReleaseNotes.md'
         tag: "v1.2-alpha"
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: "SSBPN-1.2-Alpha.jar"
