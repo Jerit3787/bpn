@@ -1,7 +1,5 @@
 # ignores all vscode settings
 .vscode/
-package-lock.json
-Gemfile.lock
 _site/
 maven/SistemSemakanBantuanPrihatinNasionalGUI/target/
 ant/Sistem Semakan Bantuan Prihatin Nasional CLI/dist/
