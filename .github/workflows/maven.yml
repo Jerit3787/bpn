@@ -38,7 +38,7 @@ jobs:
         fi
 
     - name: Setuping Node latest version
-      uses: actions/setup-node@v2.5.0
+      uses: actions/setup-node@v3.3.0
       with:
         node-version: '16'
         check-latest: true 
