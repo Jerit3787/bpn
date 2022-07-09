@@ -16,10 +16,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
-    defaults:
-      run:
-        working-directory: 'maven/SistemSemakanBantuanPrihatinNasionalGUI'
 
     steps:
     - name : Checkout Repo
@@ -62,7 +58,7 @@ jobs:
       run: npm run build
 
     - name: Preparing Artifact
-      run: "sudo cp target/SSBPN-1.2-Alpha-jar-with-dependencies.jar ../../SSBPN-1.2-Alpha.jar"
+      run: "sudo cp target/SSBPN-1.2-Alpha-jar-with-dependencies.jar SSBPN-1.2-Alpha.jar"
 
     - name: Generate Prerelease Release Notes
       run: |
