@@ -81,7 +81,7 @@ jobs:
     - name: Publish GitHub Release
       uses: ncipollo/release-action@v1.10.0
       with:
-        name: "bpn v1.2-alpha ${{ env.SHORT_SHA }}"
+        name: "bpn v1.3-alpha ${{ env.SHORT_SHA }}"
         prerelease: true
         draft: false
         bodyFile: 'ReleaseNotes.md'
