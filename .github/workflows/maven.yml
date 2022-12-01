@@ -51,7 +51,7 @@ jobs:
         cache: maven
 
     - name: Setup Ruby
-      uses: ruby/setup-ruby@v1.0.0
+      uses: ruby/setup-ruby@v1.126.0
       with:
         ruby-version: '3.0'
         bundler-cache: true
