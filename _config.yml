@@ -6,4 +6,14 @@ repository: Jerit3787/bpn
 github:
   jar_url: "https://github.com/Jerit3787/bpn/releases/download/v1.2/SSBPN-1.2.jar"
   zip_url: "https://github.com/Jerit3787/bpn/archive/refs/tags/v1.2.zip"
-exclude: ["ant/Sistem Semakan Bantuan Prihatin Nasional GUI", "ant/Sistem Semakan Bantuan Prihatin Nasional CLI", "maven/SistemSemakanBantuanPrihatinNasionalGUI"]
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - ant/Sistem Semakan Bantuan Prihatin Nasional GUI
+  - ant/Sistem Semakan Bantuan Prihatin Nasional CLI
+  - maven/SistemSemakanBantuanPrihatinNasionalGUI

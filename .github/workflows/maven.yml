@@ -44,13 +44,17 @@ jobs:
         check-latest: true 
 
     - name: Set up JDK 8
-      uses: actions/setup-java@v3.6.0
+      uses: actions/setup-java@v3.7.0
       with:
-        distribution: 'zulu'
+        distribution: zulu
         java-version: 8
+        cache: maven
 
-    - name: Set Up dependency
-      run: npm install
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0'
+        bundler-cache: true
 
     - name: Test Compile Site & Project GUI
       run: npm run test-build && npm run test-site
