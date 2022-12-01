@@ -56,9 +56,6 @@ jobs:
         ruby-version: '3.0'
         bundler-cache: true
 
-    - name: Set Up dependency
-      run: npm install
-
     - name: Test Compile Site & Project GUI
       run: npm run test-build && npm run test-site
 
