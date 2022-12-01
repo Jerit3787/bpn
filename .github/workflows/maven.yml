@@ -50,6 +50,12 @@ jobs:
         java-version: 8
         cache: maven
 
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0'
+        bundler-cache: true
+
     - name: Set Up dependency
       run: npm install
 
