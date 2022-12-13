@@ -83,7 +83,7 @@ jobs:
       if: github.event_name != 'pull_request'
 
     - name: Publish GitHub Release
-      uses: ncipollo/release-action@v1.11.2
+      uses: ncipollo/release-action@v1.12.0
       with:
         name: "bpn v1.3-alpha ${{ env.SHORT_SHA }}"
         prerelease: true
