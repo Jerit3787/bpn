@@ -9,7 +9,7 @@
         "build": "npm run clean && npm run mvn-build",
         "mvn-build": "mvn package -f 'pom.xml'",
         "test-build": "mvn test -f 'pom.xml'",
-        "test-site": "JEKYLL_GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} bundle exec jekyll build",
+        "test-site": "bundle exec jekyll build",
         "clean": "mvn clean -f 'pom.xml'"
     },
     "repository": {
