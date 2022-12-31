@@ -5,7 +5,7 @@
     "scripts": {
         "preinstall": "sudo apt-get update && sudo apt-get install gcc make ruby-full build-essential zlib1g-dev bundler -y",
         "install": "bundler install",
-        "start": "bundle exec jekyll serve",
+        "start": "JEKYLL_GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} bundle exec jekyll serve",
         "build": "npm run clean && npm run mvn-build",
         "mvn-build": "mvn package -f 'pom.xml'",
         "test-build": "mvn test -f 'pom.xml'",
