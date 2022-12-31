@@ -57,7 +57,7 @@ jobs:
         bundler-cache: true
 
     - name: Test Compile Site & Project GUI
-      run: npm run test-build && npm run test-site
+      run: JEKYLL_GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} npm run test-build && npm run test-site
 
     - name: Build Project GUI
       run: npm run build
