@@ -76,7 +76,7 @@ jobs:
       if: github.event_name != 'pull_request'
 
     - name: Delete Old Pre-Release
-      uses: dev-drprasad/delete-tag-and-release@v0.2.0
+      uses: dev-drprasad/delete-tag-and-release@v0.2.1
       with:
         tag_name: ${{ env.OLD_PRE_TAG }}
       env:
