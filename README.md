@@ -4,11 +4,10 @@
 Simple tool to check requirement for Bantuan Prihatin Nasional (BPN). **Built with Swing Java**
 
 ## Requirements
-- Requires Java Development Kit (JDK) 8.
-- Skills in using command.
+- (v1.2+) Requires Java Runtime Enviroment (JRE) 8. [Download Here (Oracle)](https://www.java.com/en/download/manual.jsp)
 
 ## Releases
-- SSBPN CLI (Command-Line Interface)
+- ~~SSBPN CLI (Command-Line Interface)~~ (Deprecated since v1.1)
 - SSBPN GUI (Graphical User Interface)
 
 ## Video
@@ -18,13 +17,13 @@ Watch my fast editing video on this project!
 ## Future Plans
 - [X] Add Author Pane.
 - [ ] Make support for `*.exe` file type
-- [X] Build support for `*java 8*` / include jdk 14 library in executable file (*.exe*).
+- [X] Build support for `JRE 8` / include JDK 14 library in executable file (*.exe*).
 - [X] Implement `material UI API` to modernize *Swing's default UI*.
 
 ## Build source locally
 ### Requirements
 - Maven installed
-- JDK 8 installed `I used Java SE JDK 8 from Oracle`
+- Java Development Kit (JDK) 8 installed `I used Java SE JDK 8 from Oracle`
 - A text editor / command-line `I used VS Code with Java Extensions Pack`
 
 ### Steps `in VS Code`
