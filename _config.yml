@@ -4,7 +4,7 @@ plugins:
   - jekyll-remote-theme 
 repository: Jerit3787/bpn
 github:
-  jar_url: "https://github.com/Jerit3787/bpn/releases/download/v1.2/SSBPN-1.4-alpha.jar"
+  jar_url: "https://github.com/Jerit3787/bpn/releases/download/v1.4-alpha/SSBPN-1.4-alpha.jar"
   zip_url: "https://github.com/Jerit3787/bpn/archive/refs/tags/v1.4-alpha.zip"
 exclude: 
   - Gemfile
