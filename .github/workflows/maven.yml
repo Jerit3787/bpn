@@ -97,7 +97,7 @@ jobs:
       if: github.event_name != 'pull_request'
 
     - name: Upload to Artifacts
-      uses: actions/upload-artifact@v3.1.4-alpha
+      uses: actions/upload-artifact@v3.1.3
       with:
         name: Release Artifacts
         path: "SSBPN-1.4-alpha.jar"
