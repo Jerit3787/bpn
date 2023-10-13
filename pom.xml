@@ -4,7 +4,7 @@
 
     <groupId>com.danishstudioproduction</groupId>
     <artifactId>SSBPN</artifactId>
-    <version>1.3</version>
+    <version>1.4-alpha</version>
     <packaging>jar</packaging>
 
     <name>Sistem Semakan Bantuan Prihatin</name>
